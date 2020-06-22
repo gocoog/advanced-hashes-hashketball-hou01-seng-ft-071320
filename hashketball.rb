@@ -174,8 +174,8 @@ end
 def player_numbers (team)
   numbers = []
   game_hash.each do |key, value|
-    if value[:team_name] == team
-      value[:players].each do |stat, val|
+    value[:players].each do |stat, val|
+      if value[:team_name] == team
         # numbers.push (stat[:number])
         binding.pry
       end
