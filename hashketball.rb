@@ -190,7 +190,6 @@ def player_stats (name)
       if k[:player_name] == name
         player_hash = k
       end
-      binding.pry
     end
   end
   player_hash
