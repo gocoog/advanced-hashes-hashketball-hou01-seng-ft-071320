@@ -177,6 +177,7 @@ def player_numbers (team)
     if value[:team_name] == team
       value[:players].each do |stat|
         numbers.push (stat[:number])
+        binding.pry
       end
     end
   end
