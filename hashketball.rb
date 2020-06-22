@@ -167,7 +167,15 @@ def team_names
   array = []
   game_hash.each do |key, value|
     array.push (value[:team_name])
-    
   end 
   array
 end 
+
+def player_numbers (team)
+  numbers = []
+  game_hash.each do |key, value|
+    value.each do |category, specs|
+      binding.pry
+    end
+  end
+end
