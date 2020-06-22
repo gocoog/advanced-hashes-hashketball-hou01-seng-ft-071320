@@ -147,7 +147,7 @@ def shoe_size (name)
     value.each do |category, specs|
       value[:players].each do |player|
         if player[:player_name] == name
-          result = player[:shoe]
+          player[:shoe]
         end
       end
     end
