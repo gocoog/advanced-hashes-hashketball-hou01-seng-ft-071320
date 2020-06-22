@@ -203,7 +203,7 @@ def big_shoe_rebounds
         biggest_shoe = k[:shoe]
       end
       k[:rebounds]
-      binding.pry
+     
     end
   end
 end
