@@ -202,7 +202,7 @@ def big_shoe_rebounds
       if k[:shoe] > biggest_shoe
         biggest_shoe = k[:shoe]
       end
-      return k[:rebounds]
+      k[:rebounds]
       binding.pry
     end
   end
