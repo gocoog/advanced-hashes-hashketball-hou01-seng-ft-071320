@@ -201,9 +201,8 @@ def big_shoe_rebounds
     value[:players].each do |k, v|
       if k[:shoe] > biggest_shoe
         biggest_shoe = k[:shoe]
-      elsif k[:shoe] == biggest_shoe
-        return k[:rebounds]
       end
+      return k[:rebounds]
       binding.pry
     end
   end
