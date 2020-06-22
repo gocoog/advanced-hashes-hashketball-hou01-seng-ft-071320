@@ -204,6 +204,7 @@ def big_shoe_rebounds
       elsif k[:shoe] == biggest_shoe
         return k[:rebounds]
       end
+      binding.pry
     end
   end
 end
