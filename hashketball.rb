@@ -147,8 +147,8 @@ def shoe_size (name)
     value.each do |category, specs|
       value[:players].each do |player|
         if player[:player_name] == name
-          player[:shoe]
-          binding.pry
+          return player[:shoe]
+          # binding.pry
         end
       end
     end
