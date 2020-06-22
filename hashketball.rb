@@ -194,3 +194,11 @@ def player_stats (name)
   end
   player_hash
 end
+
+def big_shoe_rebounds
+  game_hash.each do |key, value|
+    value[:players].each do |k, v|
+      binding.pry
+    end
+  end
+end
