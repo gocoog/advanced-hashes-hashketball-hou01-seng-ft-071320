@@ -133,10 +133,10 @@ def num_points_scored (name)
   game_hash.each do |key, value|
     value.each do |category, specs|
       value[:players].each do |player|
-
-        binding.pry
+        player.each do |stat|
+          binding.pry
+        end
       end
-      #inding.pry
     end
   end
 end
