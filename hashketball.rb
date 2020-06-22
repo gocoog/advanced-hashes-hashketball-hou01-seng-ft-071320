@@ -184,7 +184,10 @@ def player_numbers (team)
 end
 
 def player_stats (name)
+  player_hash = {}
   game_hash.each do |key, value|
-    binding.pry
+    value[:players].each do |k, v|
+      binding.pry
+    end
   end
 end
