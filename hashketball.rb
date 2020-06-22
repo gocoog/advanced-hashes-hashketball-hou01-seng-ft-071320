@@ -180,4 +180,5 @@ def player_numbers (team)
       end
     end
   end
+  numbers
 end
