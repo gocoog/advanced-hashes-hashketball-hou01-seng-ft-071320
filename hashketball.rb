@@ -158,6 +158,7 @@ end
 def team_colors (team)
   game_hash.each do |key, value|
     value.each do |category, specs|
+      
       binding.pry
     end
   end
